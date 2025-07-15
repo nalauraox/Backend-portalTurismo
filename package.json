@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.14.2",
+    "sequelize": "^6.37.7"
+  },
+  "name": "backend-portalturismo",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nalauraox/Backend-portalTurismo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nalauraox/Backend-portalTurismo/issues"
+  },
+  "homepage": "https://github.com/nalauraox/Backend-portalTurismo#readme",
+  "description": ""
+}
