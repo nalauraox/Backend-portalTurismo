@@ -4,7 +4,7 @@ const express = require('express')
  
 const userRoutes = require('./routes/userRoutes')
 const contactsRoutes = require('./routes/contactRoutes')
-
+const authRoutes = require('./routes/authRoutes');
 const app = express();
  
 app.use(express.json());
@@ -13,6 +13,7 @@ app.get('/', (_req, res)=> res.send('api funcionando'))
  
 app.use('/api/users', userRoutes)
 app.use('/api/contacts', contactsRoutes)
+app.use('/api/auth', authRoutes);
 
 const PORT = process.env.PORT;
  
